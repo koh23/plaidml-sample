@@ -1,0 +1,23 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+plaidml-keras = "*"
+jupyter = "*"
+numpy = "*"
+scipy = "*"
+pandas = "*"
+matplotlib = "*"
+tensorflow = "*"
+keras = "*"
+autopep8 = "*"
+pydot = "*"
+jupyter-contrib-nbextensions = "*"
+plaidbench = "*"
+
+[requires]
+python_version = "3.7"
