@@ -19,7 +19,7 @@ def main():
     model.summary()
     # train
     start = time.time()
-    model.fit(x_train, y_train, batch_size=1024, epochs=10, validation_split=0.1)
+    model.fit(x_train, y_train, batch_size=1025, epochs=10, validation_split=0.1)
     end = time.time()
     elapsed = end - start
     print("Training: elasped time is " + str(elapsed))
